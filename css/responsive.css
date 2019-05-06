@@ -5,6 +5,24 @@
     }
 }
 
+@media (max-width: 1920px) {
+    .background-text h3 {
+        font-size: 450px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .background-text h3 {
+        font-size: 350px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .background-text h3 {
+        font-size: 280px;
+    }
+}
+
 @media (max-width: 1200px) {
     #main-header .header-inner .btn {
         width: 100px;
@@ -17,6 +35,10 @@
     #main-header .header-inner p {
         font-size: 21px;
         margin-top: -27px;
+    }
+
+    .background-text h3 {
+        font-size: 200px;
     }
 }
 
@@ -71,11 +93,19 @@
         font-size: 16px;
     }
 
+    .background-text-hide {
+        display: none;
+    }
+
 }
 
 @media all and (max-width: 640px) {
     #about2 p {
         font-size: 12px;
+    }
+
+    #portfolio .portfolio-inner h2 {
+        font-size: 68px;
     }
 }
 
@@ -98,6 +128,11 @@
         font-size: 12px;
         margin-top: -16px;
     }
+
+    #portfolio .portfolio-inner h2 {
+        font-size: 48px;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -123,7 +158,7 @@
         font-size: 6.5px;
         margin-top: -9px;
     }
-    
+
     #main-nav .main-nav-item a {
         font-size: 16px;
     }
@@ -135,11 +170,11 @@
     #about2 h3 {
         font-size: 36px;
     }
-    
+
     #about .about-inner h2 {
         top: 72%;
-    left: 40%;
-}
+        left: 40%;
+    }
 
     #about .about-inner h2.second {
         top: 72%;
@@ -155,6 +190,10 @@
     #about .about-inner h2.fourth {
         top: 72%;
         left: 32%;
+    }
+    
+    #portfolio .portfolio-inner h2 {
+        font-size: 36px;
     }
 
 }
