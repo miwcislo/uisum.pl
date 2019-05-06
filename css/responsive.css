@@ -11,12 +11,12 @@
     }
 
     #main-header .header-inner h2 {
-        font-size: 118px;
+        font-size: 100px;
     }
 
     #main-header .header-inner p {
-        font-size: 26px;
-        margin-top: -33px;
+        font-size: 21px;
+        margin-top: -27px;
     }
 }
 
@@ -100,15 +100,28 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
 
     #main-header .header-inner h2 {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     #main-header .header-inner p {
-        font-size: 7.5px;
-        margin-top: -10px;
+        font-size: 6.5px;
+        margin-top: -9px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    #main-header .header-inner h2 {
+        font-size: 45px;
+    }
+
+    #main-header .header-inner p {
+        font-size: 6.5px;
+        margin-top: -9px;
     }
     
     #main-nav .main-nav-item a {
