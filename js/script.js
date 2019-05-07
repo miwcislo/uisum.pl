@@ -1,18 +1,16 @@
 $(document).ready(function () {
-//    $('.owl-carousel').owlCarousel({
-//        loop: true,
-//        item: 1,
-//        nav: true,
-//        autoplayTimeout: 5000,
-//        autoplay: true,
-//        animateOut: 'fadeOut',
-//        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
-//        responsive: {
-//            0: {
-//                items: 1
-//            },
-//        }
-//    })
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        item: 1,
+        autoplayTimeout: 5000,
+        autoplay: true,
+        animateOut: 'fadeOut',
+        responsive: {
+            0: {
+                items: 4
+            },
+        }
+    })
 
     $("a").on('click', function (event) {
         if (this.hash !== "") {
@@ -29,7 +27,4 @@ $(document).ready(function () {
         }
     });
 
-    $(".header-btn").click(function () {
-        
-    });
 });
