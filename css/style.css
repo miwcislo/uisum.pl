@@ -299,9 +299,20 @@ ul {
     background-color: #f8f8f8;
 }
 
+#oferta .row {
+    padding: 30px 100px;
+}
+
+#oferta .col {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*
 #oferta .oferta-heading {
     padding: 30px 100px 0 100px;
 }
+*/
 
 #oferta .oferta-heading h2 {
     font-size: 60px;
@@ -315,20 +326,18 @@ ul {
     letter-spacing: 3px;
     text-align: justify;
     text-align-last: center;
-    padding: 0 150px;
-}
-
-#oferta .row {
-    padding: 30px 100px;
 }
 
 #oferta .oferta-inner {
     margin-right: 50px;
 }
 
+#oferta .oferta-inner:last-of-type {
+    margin-right: 0;
+}
+
 #oferta .oferta-img {
-    height: 450px;
-    overflow: hidden;
+    width: 100%;
 }
 
 #oferta .oferta-opis h3 {
@@ -346,5 +355,78 @@ ul {
 }
 
 #contact {
-    height: 2000px;
+    padding: 30px 100px;
+    color: #414042;
+}
+
+#contact .bg {
+    background-image: url(../img/kontact-img.png);
+    background-repeat: no-repeat;
+}
+
+#contact h2 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#contact h3 {
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+#contact p {
+    color: #959596;
+}
+
+.contact-icon img, .contact-icon2 img {
+    height: 40px;
+}
+
+.blok {
+    display: flex;
+    align-items: center;
+    
+}
+
+.blok2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.mail, .person {
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.contact-icon2 {
+    margin-top: 30px;
+}
+
+.person h3 {
+    margin-top: 15px;
+}
+
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons h3 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    transition: all 0.4s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.05);
 }
