@@ -146,13 +146,13 @@ ul {
 
 /* ABOUT */
 
-#about .about-inner {
+#o-nas .o-nas-inner {
     padding: 150px 0;
     text-align: center;
     position: relative;
 }
 
-#about .about-inner h2 {
+#o-nas .o-nas-inner h2 {
     position: absolute;
     top: 65%;
     transform: translateY(-50%);
@@ -165,41 +165,41 @@ ul {
 
 
 
-#about .about-inner:hover h2 {
+#o-nas .o-nas-inner:hover h2 {
     opacity: 1;
 }
 
-#about .about-inner h2.second {
+#o-nas .o-nas-inner h2.second {
     left: 50%;
 }
 
-#about .about-inner h2.third {
+#o-nas .o-nas-inner h2.third {
     left: 60%;
     top: 68%;
     text-align: right;
 }
 
-#about .about-inner h2.fourth {
+#o-nas .o-nas-inner h2.fourth {
     left: 65%;
 }
 
 
-#about .grey {
+#o-nas .grey {
     background-color: #ebebeb;
 }
 
-#about2 {
+#o-nas2 {
     text-align: center;
     padding: 50px;
 }
 
-#about2 h3 {
+#o-nas2 h3 {
     font-size: 60px;
     font-weight: 200;
     font-family: 'Great Vibes', cursive;
 }
 
-#about2 h2 {
+#o-nas2 h2 {
     font-size: 60px;
     font-weight: 900;
     margin-top: 15px;
@@ -207,7 +207,7 @@ ul {
 }
 
 
-#about2 p {
+#o-nas2 p {
     font-size: 20px;
     letter-spacing: 3px;
     text-align: justify;
@@ -220,7 +220,6 @@ ul {
 #portfolio {
     background-color: #ebebeb;
     position: relative;
-    /*    height: 2160px;*/
 }
 
 #portfolio .portfolio-heading {
