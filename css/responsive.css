@@ -123,10 +123,6 @@
         padding: 30px;
     }
 
-    #oferta .oferta-opis {
-        margin-bottom: 80px;
-    }
-
 
 }
 
@@ -166,20 +162,12 @@
 
 }
 
-@media (max-width: 400px) {
-
-    #main-header .header-inner h2 {
-        font-size: 45px;
-    }
-
-    #main-header .header-inner p {
-        font-size: 6.5px;
-        margin-top: -9px;
-    }
-
-}
 
 @media (max-width: 320px) {
+    
+    #main-header .header-inner {
+        height: calc(100vh - 270px);
+    }
 
     #main-header .header-inner h2 {
         font-size: 45px;
@@ -190,17 +178,7 @@
         margin-top: -9px;
     }
 
-    #main-nav .main-nav-item a {
-        font-size: 16px;
-    }
 
-    #about2 h2 {
-        font-size: 36px;
-    }
-
-    #about2 h3 {
-        font-size: 36px;
-    }
 
     #about .about-inner h2 {
         top: 72%;
@@ -222,13 +200,68 @@
         top: 72%;
         left: 32%;
     }
+    
+/* MAIN-NAV */
 
-    #portfolio .portfolio-heading h2,
-    #portfolio .portfolio-inner h2,
+    #main-nav .logo a img {
+    height: 60px;
+}
+    #main-nav .main-nav-item a {
+    font-size: 20px;
+            margin-top: 20px;
+}
+
+    /* ABOUT 2 */
+    #about2 h2,
+    #about2 h3 {
+        font-size: 36px;
+    }
+
+    #about2 p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-align-last: left;
+    }
+
+
+    /* PORTFOLIO */
+    #portfolio .portfolio-items {
+        padding: 50px 30px;
+    }
+
+    #portfolio .portfolio-heading h2 {
+        font-size: 36px;
+    }
+
+
+    /* OFERTA */
+    #oferta .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     #oferta .oferta-heading h2 {
         font-size: 36px;
     }
 
+    #oferta .oferta-heading p {
+        letter-spacing: 1px;
+        text-align-last: left;
+    }
+
+    #oferta .oferta-inner-second {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #oferta .oferta-opis h3 {
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+
+    /* KONTAKT */
     #contact .bg {
         width: 300px;
         left: -30px;
