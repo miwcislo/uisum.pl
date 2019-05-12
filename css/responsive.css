@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
     .col-lg25 {
         flex: 0 0 25%;
         max-width: 25%;
@@ -10,30 +10,40 @@
     }
 }
 
-@media (max-width: 1920px) {
-    .background-text h3 {
-        font-size: 450px;
+@media (max-width: 1600px) {
+        
+    /* O NAS */
+    #o-nas .o-nas-inner h2 {
+        top: 72%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    #o-nas .o-nas-inner h2.second {
+        top: 72%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    #o-nas .o-nas-inner h2.third {
+        top: 75%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    #o-nas .o-nas-inner h2.fourth {
+        top: 72%;
+        left: 0;
+        right: 0;
+        text-align: center;
     }
 }
 
-@media (max-width: 1700px) {
-    .background-text h3 {
-        font-size: 350px;
-    }
-}
+@media (max-width: 1024px) {
 
-@media (max-width: 1500px) {
-    .background-text h3 {
-        font-size: 280px;
-    }
-
-    .col-md50 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-}
-
-@media (max-width: 1200px) {
     #main-header .header-inner .btn {
         width: 100px;
     }
@@ -46,37 +56,7 @@
         font-size: 21px;
         margin-top: -27px;
     }
-
-    .background-text h3 {
-        font-size: 200px;
-    }
 }
-
-@media (max-width: 768px) {
-
-    .background-text-hide {
-        display: none;
-    }
-
-    #portfolio .portfolio-items {
-        padding: 80px 30px;
-        display: flex;
-        background-repeat: no-repeat;
-        background-position: top left;
-        background-size: contain;
-    }
-
-    #portfolio .portfolio-heading {
-        padding: 30px;
-    }
-
-
-
-
-}
-
-
-
 
 @media (max-width: 768px) {
 
@@ -109,7 +89,7 @@
 
     /* MAIN-HEADER */
     #main-header .header-text {
-        left: 30px;
+        left: 60px;
         margin-top: -10px;
     }
 
@@ -125,38 +105,9 @@
         font-size: 21.5px;
         margin-top: -27px;
     }
-    
+
     #main-header .header-inner .btn {
         width: 50px;
-    }
-
-    /* O NAS */
-    #o-nas .o-nas-inner h2 {
-        top: 72%;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-
-    #o-nas .o-nas-inner h2.second {
-        top: 72%;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-
-    #o-nas .o-nas-inner h2.third {
-        top: 75%;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-
-    #o-nas .o-nas-inner h2.fourth {
-        top: 72%;
-        left: 0;
-        right: 0;
-        text-align: center;
     }
 
     /* O NAS 2 */
@@ -183,7 +134,15 @@
     }
 
     #portfolio .portfolio-items {
-        padding: 50px 30px;
+        padding: 120px 30px;
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+    }
+
+    #portfolio .portfolio-heading {
+        margin-bottom: 30px;
     }
 
     #portfolio .portfolio-heading h2 {
@@ -279,6 +238,15 @@
 }
 
 @media all and (max-width: 640px) {
+
+    #main-header .header-text {
+        left: 30px;
+    }
+
+    #portfolio .portfolio-items {
+        padding: 100px 30px;
+    }
+
     #main-header .header-inner h2 {
         font-size: 75px;
     }
@@ -301,6 +269,10 @@
         font-size: 10.5px;
         margin-top: -13px;
     }
+
+    #portfolio .portfolio-items {
+        padding: 80px 30px;
+    }
 }
 
 
@@ -315,3 +287,8 @@
         font-size: 6.5px;
         margin-top: -9px;
     }
+
+    #portfolio .portfolio-items {
+        padding: 50px 30px;
+    }
+}

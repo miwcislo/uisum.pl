@@ -13,7 +13,7 @@ $(document).ready(function () {
                 items: 1
             },
             1024: {
-                items: 3
+                items: 2
             },
             1366: {
                 items: 4
