@@ -354,14 +354,42 @@ ul {
     color: #414042;
 }
 
+/* KONTAKT */
+
 #contact {
-    padding: 30px 100px;
+    padding: 30px 100px 0 100px;
     color: #414042;
 }
 
+#contact .contact-box-mail a {
+    color: #414042;
+    cursor: pointer;
+}
+
+#contact .contact-box-person a {
+    color: #959596;
+}
+
 #contact .bg {
-    background-image: url(../img/kontact-img.png);
-    background-repeat: no-repeat;
+    width: 500px;
+    position: relative;
+    left: -100px;
+}
+
+#contact .bg img {
+    height: auto;
+    display: block;
+}
+
+#contact .contact-inner {
+    position: relative;
+}
+
+#contact .contact-inner .contact-box {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #contact h2 {
@@ -380,46 +408,47 @@ ul {
     color: #959596;
 }
 
-.contact-icon img, .contact-icon2 img {
-    height: 40px;
+#contact .contact-icon {
+    width: 30px;
+    align-self: center;
 }
 
-.blok {
+#contact .contact-icon img {
+    max-width: 30px;
+}
+
+#contact .contact-box-mail {
     display: flex;
     align-items: center;
     
 }
 
-.blok2 {
+#contact .contact-box-person {
     display: flex;
     align-items: flex-start;
 }
 
-.mail, .person {
+#contact .contact-mail, .contact-person {
     font-size: 26px;
     margin-left: 30px;
 }
 
-.contact-icon2 {
-    margin-top: 30px;
-}
-
-.person h3 {
+#contact .contact-person h3 {
     margin-top: 15px;
 }
 
-.social-icons {
+#contact .social-icons {
     margin-top: 40px;
 }
 
-.social-icons h3 {
+#contact .social-icons h3 {
     font-size: 36px;
     font-weight: 900;
     text-align: left;
     margin-bottom: 15px;
 }
 
-.social-icons a {
+#contact .social-icons a {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -427,6 +456,6 @@ ul {
     transition: all 0.4s;
 }
 
-.social-icons a:hover {
+#contact .social-icons a:hover {
     transform: scale(1.05);
 }
